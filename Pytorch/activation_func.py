@@ -20,10 +20,13 @@ plt.title('relu function')
 plt.show()
 
 y = sigmoid(x)
-
+#이 데이터가 뭘 으미?->soft max
+#회귀 ->sigmoid 상관관계
 plt.scatter(x, y)
 plt.title('sigmoid function')
 plt.show()
+
+
 
 y = arctan(x)
 
